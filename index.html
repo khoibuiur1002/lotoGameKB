@@ -16,6 +16,50 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
+</head>
+<body>
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-12">
+        <img src="logo.jpg" alt="logo" width="60px" height="60px"><h1>Bingo Game - Mừng Xuân 2021</h1>
+      </div>
+    </div>
+    <div class = "row">
+      
+      <div class = "col-sm-6 middle">
+	      <input id="button" type="button" value="BẮT ĐẦU" onclick="startFunction()"/>
+        <br />
+		<input id="button1" type="button" value="Tạm Dừng" onclick="pause()"/>
+       
+		<input id="button2" type="button" value="Tiếp Tục" onclick="resume()"/>
+        <br />
+		<br />
+        <h1 id="Number"></h1>
+		<a href="index.html">Chơi Lại</a>
+		
+      </div>
+      <div class = "col-sm-6">
+        <div id="winnerdiv">
+		  <hr/>
+		  <a href="bingo_papers.html">Vé Lô Tô</a>
+		  <hr/>
+          <h3>Tới!!:</h3> &nbsp;
+          <input class = "name" type="text" name="yourName" id="Nametext" /><br />
+          <input type="button" id="winbutton" onclick = "winFunction()" value = "click">
+		  
+        </div>
+        <br />
+        <div id="congratulation">
+          <h1 id = "congrat"></h1>
+          <p class = "theWinnerBox" type="text" id="winner" /><br />
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
 <script>
 isPlaying = true; //for pause and resume function purposes
 
@@ -41,7 +85,7 @@ var NoExposed = [];
   function startFunction() {
 	isPlaying = true;
 	//start audio
-	_start = new Audio('audio/start.mp3');
+	_start = new Audio('start.mp3');
     _start.play();
 	 
 	//set speed	of start sentence ***not speed of generating number
@@ -69,363 +113,363 @@ var NoExposed = [];
 	
 	//audio
 	if (document.getElementById("Number").innerHTML == 1){
-      _1 = new Audio('audio/1.mp3');
+      _1 = new Audio('1.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 2){
-      _1 = new Audio('audio/2.mp3');
+      _1 = new Audio('2.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 3){
-      _1 = new Audio('audio/3.mp3');
+      _1 = new Audio('3.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 4){
-      _1 = new Audio('audio/4.mp3');
+      _1 = new Audio('4.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 5){
-      _1 = new Audio('audio/5.mp3');
+      _1 = new Audio('5.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 6){
-      _1 = new Audio('audio/6.mp3');
+      _1 = new Audio('6.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 7){
-      _1 = new Audio('audio/7.mp3');
+      _1 = new Audio('7.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 8){
-      _1 = new Audio('audio/8.mp3');
+      _1 = new Audio('8.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 9){
-      _1 = new Audio('audio/9.mp3');
+      _1 = new Audio('9.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 10){
-      _1 = new Audio('audio/10.mp3');
+      _1 = new Audio('10.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 11){
-      _1 = new Audio('audio/11.mp3');
+      _1 = new Audio('11.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 12){
-      _1 = new Audio('audio/12.mp3');
+      _1 = new Audio('12.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 13){
-      _1 = new Audio('audio/13.mp3');
+      _1 = new Audio('13.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 14){
-      _1 = new Audio('audio/14.mp3');
+      _1 = new Audio('14.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 15){
-      _1 = new Audio('audio/15.mp3');
+      _1 = new Audio('15.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 16){
-      _1 = new Audio('audio/16.mp3');
+      _1 = new Audio('16.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 17){
-      _1 = new Audio('audio/17.mp3');
+      _1 = new Audio('17.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 18){
-      _1 = new Audio('audio/18.mp3');
+      _1 = new Audio('18.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 19){
-      _1 = new Audio('audio/19.mp3');
+      _1 = new Audio('19.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 20){
-      _1 = new Audio('audio/20.mp3');
+      _1 = new Audio('20.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 21){
-      _1 = new Audio('audio/21.mp3');
+      _1 = new Audio('21.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 22){
-      _1 = new Audio('audio/22.mp3');
+      _1 = new Audio('22.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 23){
-      _1 = new Audio('audio/23.mp3');
+      _1 = new Audio('23.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 24){
-      _1 = new Audio('audio/24.mp3');
+      _1 = new Audio('24.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 25){
-      _1 = new Audio('audio/25.mp3');
+      _1 = new Audio('25.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 26){
-      _1 = new Audio('audio/26.mp3');
+      _1 = new Audio('26.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 27){
-      _1 = new Audio('audio/27.mp3');
+      _1 = new Audio('27.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 28){
-      _1 = new Audio('audio/28.mp3');
+      _1 = new Audio('28.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 29){
-      _1 = new Audio('audio/29.mp3');
+      _1 = new Audio('29.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 30){
-      _1 = new Audio('audio/30.mp3');
+      _1 = new Audio('30.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 31){
-      _1 = new Audio('audio/31.mp3');
+      _1 = new Audio('31.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 32){
-      _1 = new Audio('audio/32.mp3');
+      _1 = new Audio('32.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 33){
-      _1 = new Audio('audio/33.mp3');
+      _1 = new Audio('33.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 34){
-      _1 = new Audio('audio/34.mp3');
+      _1 = new Audio('34.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 35){
-      _1 = new Audio('audio/35.mp3');
+      _1 = new Audio('35.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 36){
-      _1 = new Audio('audio/36.mp3');
+      _1 = new Audio('36.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 37){
-      _1 = new Audio('audio/37.mp3');
+      _1 = new Audio('37.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 38){
-      _1 = new Audio('audio/38.mp3');
+      _1 = new Audio('38.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 39){
-      _1 = new Audio('audio/39.mp3');
+      _1 = new Audio('39.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 40){
-      _1 = new Audio('audio/40.mp3');
+      _1 = new Audio('40.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 41){
-      _1 = new Audio('audio/41.mp3');
+      _1 = new Audio('41.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 42){
-      _1 = new Audio('audio/42.mp3');
+      _1 = new Audio('42.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 43){
-      _1 = new Audio('audio/43.mp3');
+      _1 = new Audio('43.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 44){
-      _1 = new Audio('audio/44.mp3');
+      _1 = new Audio('44.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 45){
-      _1 = new Audio('audio/45.mp3');
+      _1 = new Audio('45.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 46){
-      _1 = new Audio('audio/46.mp3');
+      _1 = new Audio('46.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 47){
-      _1 = new Audio('audio/47.mp3');
+      _1 = new Audio('47.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 48){
-      _1 = new Audio('audio/48.mp3');
+      _1 = new Audio('48.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 49){
-      _1 = new Audio('audio/49.mp3');
+      _1 = new Audio('49.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 50){
-      _1 = new Audio('audio/50.mp3');
+      _1 = new Audio('50.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 51){
-      _1 = new Audio('audio/51.mp3');
+      _1 = new Audio('51.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 52){
-      _1 = new Audio('audio/52.mp3');
+      _1 = new Audio('52.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 53){
-      _1 = new Audio('audio/53.mp3');
+      _1 = new Audio('53.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 54){
-      _1 = new Audio('audio/54.mp3');
+      _1 = new Audio('54.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 55){
-      _1 = new Audio('audio/55.mp3');
+      _1 = new Audio('55.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 56){
-      _1 = new Audio('audio/56.mp3');
+      _1 = new Audio('56.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 57){
-      _1 = new Audio('audio/57.mp3');
+      _1 = new Audio('57.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 58){
-      _1 = new Audio('audio/58.mp3');
+      _1 = new Audio('58.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 59){
-      _1 = new Audio('audio/59.mp3');
+      _1 = new Audio('59.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 60){
-      _1 = new Audio('audio/60.mp3');
+      _1 = new Audio('60.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 61){
-      _1 = new Audio('audio/61.mp3');
+      _1 = new Audio('61.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 62){
-      _1 = new Audio('audio/62.mp3');
+      _1 = new Audio('62.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 63){
-      _1 = new Audio('audio/63.mp3');
+      _1 = new Audio('63.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 64){
-      _1 = new Audio('audio/64.mp3');
+      _1 = new Audio('64.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 65){
-      _1 = new Audio('audio/65.mp3');
+      _1 = new Audio('65.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 66){
-      _1 = new Audio('audio/66.mp3');
+      _1 = new Audio('66.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 67){
-      _1 = new Audio('audio/67.mp3');
+      _1 = new Audio('67.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 68){
-      _1 = new Audio('audio/68.mp3');
+      _1 = new Audio('68.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 69){
-      _1 = new Audio('audio/69.mp3');
+      _1 = new Audio('69.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 70){
-      _1 = new Audio('audio/70.mp3');
+      _1 = new Audio('70.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 71){
-      _1 = new Audio('audio/71.mp3');
+      _1 = new Audio('71.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 72){
-      _1 = new Audio('audio/72.mp3');
+      _1 = new Audio('72.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 73){
-      _1 = new Audio('audio/73.mp3');
+      _1 = new Audio('73.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 74){
-      _1 = new Audio('audio/74.mp3');
+      _1 = new Audio('74.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 75){
-      _1 = new Audio('audio/75.mp3');
+      _1 = new Audio('75.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 76){
-      _1 = new Audio('audio/76.mp3');
+      _1 = new Audio('76.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 77){
-      _1 = new Audio('audio/77.mp3');
+      _1 = new Audio('77.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 78){
-      _1 = new Audio('audio/78.mp3');
+      _1 = new Audio('78.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 79){
-      _1 = new Audio('audio/79.mp3');
+      _1 = new Audio('79.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 80){
-      _1 = new Audio('audio/80.mp3');
+      _1 = new Audio('80.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 81){
-      _1 = new Audio('audio/81.mp3');
+      _1 = new Audio('81.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 82){
-      _1 = new Audio('audio/82.mp3');
+      _1 = new Audio('82.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 83){
-      _1 = new Audio('audio/83.mp3');
+      _1 = new Audio('83.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 84){
-      _1 = new Audio('audio/84.mp3');
+      _1 = new Audio('84.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 85){
-      _1 = new Audio('audio/85.mp3');
+      _1 = new Audio('85.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 86){
-      _1 = new Audio('audio/86.mp3');
+      _1 = new Audio('86.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 87){
-      _1 = new Audio('audio/87.mp3');
+      _1 = new Audio('87.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 88){
-      _1 = new Audio('audio/88.mp3');
+      _1 = new Audio('88.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 89){
-      _1 = new Audio('audio/89.mp3');
+      _1 = new Audio('89.mp3');
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 90){
-      _1 = new Audio('audio/90.mp3');
+      _1 = new Audio('90.mp3');
       _1.play();
     }
 	// end audio
@@ -460,48 +504,5 @@ var NoExposed = [];
     document.getElementById("winnerdiv").style.visibility="hidden";
   }
 </script>
-</head>
-<body>
-  <div class = "container">
-    <div class = "row">
-      <div class = "col-12">
-        <img src="logo.jpg" alt="logo" width="60px" height="60px"><h1>Bingo Game - Mừng Xuân 2021</h1>
-      </div>
-    </div>
-    <div class = "row">
-      <div class = "col-sm-6">
-          <input id="button" type="button" value="BẮT ĐẦU" onclick="startFunction()"/>
-        <br />
-		<input id="button1" type="button" value="Tạm Dừng" onclick="pause()"/>
-       
-		<input id="button2" type="button" value="Tiếp Tục" onclick="resume()"/>
-        <br />
-		<br />
-        <h1 id="Number"></h1>
-		<a href="index.html">Chơi Lại</a>
-      </div>
-      
-      <div class = "col-sm-6">
-        <div id="winnerdiv">
-		  <hr/>
-		  <a href="bingo_papers.html">Vé Lô Tô</a>
-		  <hr/>
-          <h3>Tới!!:</h3> &nbsp;
-          <input class = "name" type="text" name="yourName" id="Nametext" /><br />
-          <input type="button" id="winbutton" onclick = "winFunction()" value = "click">
-		  
-        </div>
-        <br />
-        <div id="congratulation">
-          <h1 id = "congrat"></h1>
-          <p class = "theWinnerBox" type="text" id="winner" /><br />
-        </div>
-
-      </div>
-    </div>
-
-
-  </div>
-
 </body>
 </html>
