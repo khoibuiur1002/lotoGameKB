@@ -15,51 +15,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-
-</head>
-<body>
-  <div class = "container">
-    <div class = "row">
-      <div class = "col-12">
-        <img src="logo.jpg" alt="logo" width="60px" height="60px"><h1>Bingo Game - Mừng Xuân 2021</h1>
-      </div>
-    </div>
-    <div class = "row">
-      
-      <div class = "col-sm-6 middle">
-	      <input id="button" type="button" value="BẮT ĐẦU" onclick="startFunction()"/>
-        <br />
-		<input id="button1" type="button" value="Tạm Dừng" onclick="pause()"/>
-       
-		<input id="button2" type="button" value="Tiếp Tục" onclick="resume()"/>
-        <br />
-		<br />
-        <h1 id="Number"></h1>
-		<a href="index.html">Chơi Lại</a>
-		
-      </div>
-      <div class = "col-sm-6">
-        <div id="winnerdiv">
-		  <hr/>
-		  <a href="bingo_papers.html">Vé Lô Tô</a>
-		  <hr/>
-          <h3>Tới!!:</h3> &nbsp;
-          <input class = "name" type="text" name="yourName" id="Nametext" /><br />
-          <input type="button" id="winbutton" onclick = "winFunction()" value = "click">
-		  
-        </div>
-        <br />
-        <div id="congratulation">
-          <h1 id = "congrat"></h1>
-          <p class = "theWinnerBox" type="text" id="winner" /><br />
-        </div>
-
-      </div>
-    </div>
-
-
-  </div>
-
 <script>
 isPlaying = true; //for pause and resume function purposes
 
@@ -504,5 +459,47 @@ var NoExposed = [];
     document.getElementById("winnerdiv").style.visibility="hidden";
   }
 </script>
+</head>
+<body>
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-12">
+        <img src="logo.jpg" alt="logo" width="60px" height="60px"><h1>Bingo Game - Mừng Xuân 2021</h1>
+      </div>
+    </div>
+    <div class = "row">
+      
+      <div class = "col-sm-6 middle">
+	      <input id="button" type="button" value="BẮT ĐẦU" onclick="startFunction()"/>
+              <br />
+	      <input id="button1" type="button" value="Tạm Dừng" onclick="pause()"/>
+       
+	      <input id="button2" type="button" value="Tiếp Tục" onclick="resume()"/>
+              <br />
+	      <br />
+              <h1 id="Number"></h1>
+	      <a href="index.html">Chơi Lại</a>
+		
+      </div>
+      <div class = "col-sm-6">
+        <div id="winnerdiv">
+		  <hr/>
+		  <a href="bingo_papers.html">Vé Lô Tô</a>
+		  <hr/>
+          <h3>Tới!!:</h3> &nbsp;
+          <input class = "name" type="text" name="yourName" id="Nametext" /><br />
+          <input type="button" id="winbutton" onclick = "winFunction()" value = "click">
+		  
+        </div>
+        <br />
+        <div id="congratulation">
+          <h1 id = "congrat"></h1>
+          <p class = "theWinnerBox" type="text" id="winner" /><br />
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
