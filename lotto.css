@@ -1,4 +1,3 @@
-touch-action: manipulation
 #button {
   background-color: #00008B ;
   color: white;
@@ -91,4 +90,4 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #00008B;
 }
-touch-action: manipulation
+
