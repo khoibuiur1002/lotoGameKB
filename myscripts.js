@@ -16,7 +16,7 @@ var NoExposed = [];
     return array;
   }
 
-  let numbersArray = arrayofNumber(1,5);
+  let numbersArray = arrayofNumber(1,90);
   
   //start generate 
   function startFunction() {
