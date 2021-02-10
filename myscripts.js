@@ -16,7 +16,7 @@ var NoExposed = [];
     return array;
   }
 
-  let numbersArray = arrayofNumber(1,90);
+  let numbersArray = arrayofNumber(1,5);
   
   //start generate 
   function startFunction() {
@@ -54,20 +54,20 @@ var NoExposed = [];
       _1.play();
     }
 	if (document.getElementById("Number").innerHTML == 2){
-      _1 = new Audio('2.mp3');
-      _1.play();
+      _2 = new Audio('2.mp3');
+      _2.play();
     }
 	if (document.getElementById("Number").innerHTML == 3){
-      _1 = new Audio('3.mp3');
-      _1.play();
+      _3 = new Audio('3.mp3');
+      _3.play();
     }
 	if (document.getElementById("Number").innerHTML == 4){
-      _1 = new Audio('4.mp3');
-      _1.play();
+      _4 = new Audio('4.mp3');
+      _4.play();
     }
 	if (document.getElementById("Number").innerHTML == 5){
-      _1 = new Audio('5.mp3');
-      _1.play();
+      _5 = new Audio('5.mp3');
+      _5.play();
     }
 	if (document.getElementById("Number").innerHTML == 6){
       _1 = new Audio('6.mp3');
