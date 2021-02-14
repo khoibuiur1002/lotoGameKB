@@ -26,39 +26,28 @@
     </div>
     <div class = "row">
       
-      <div class = "col-sm-4">
+      <div class = "col-sm-6">
 	      <input id="button" type="button" value="BẮT ĐẦU" onclick="startFunction()"/>
               <br />
 	      <input id="button1" type="button" value="Tạm Dừng" onclick="pause()"/>
        
 	      <input id="button2" type="button" value="Tiếp Tục" onclick="resume()"/>
+	      <br/>
+		<input id="button3" type="button" value="Đọc Nhanh Hơn" onclick="faster()"/>
+		<input id="button4" type="button" value="Đọc Chậm Hơn" onclick="slower()"/>
               <br />
 	      <br />
               <h1 id="Number"></h1>
 	      <a href="index.html">Chơi Lại</a>
+	      <hr/>
+	      <a href="bingo_papers.html">Vé Lô Tô</a><hr/>
       </div>
-      <div class = "col-sm-4 middle">
+      <div class = "col-sm-6 middle">
 		<h3>Số Đã Sổ: </h3>
         <br />
           <p id = "numberExposed"></p><br />
       </div>	    
-      <div class = "col-sm-4">
-        <div id="winnerdiv">
-		  <hr/>
-		  <a href="bingo_papers.html">Vé Lô Tô</a>
-		  <hr/>
-          <h3>Tới!!:</h3> &nbsp;
-          <input class = "name" type="text" name="yourName" id="Nametext" /><br />
-          <input type="button" id="winbutton" onclick = "winFunction()" value = "click">
-		  
-        </div>
-        <br />
-        <div id="congratulation">
-          <h1 id = "congrat"></h1>
-          <p class = "theWinnerBox" type="text" id="winner" /><br />
-        </div>
-
-      </div>
+      
     </div>
   </div>
 
