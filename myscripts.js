@@ -450,3 +450,8 @@ function faster(){
 function slower(){
 	speed = speed + 1000;
   }
+function kenh(){
+	_kenh = new Audio('kenh.mp3');
+    	_kenh.play();
+	pause();
+  }
