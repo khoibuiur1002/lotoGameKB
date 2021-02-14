@@ -1,5 +1,5 @@
 isPlaying = true; //for pause and resume function purposes
-
+var speed = 4000; //default speed 
 var NoExposed = []; 
   function getRandomNumber(min,max){
     let step1 = max-min +1;
@@ -36,7 +36,7 @@ var NoExposed = [];
 	}
 	else //else will continue to generate
 	{
-	setTimeout(spinFunction, 3750); // here is setting speed of generating number
+	setTimeout(spinFunction, speed); // here is setting speed of generating number
 	
     if(numbersArray.length == 0){ //return and expose "end" if generating process finished
       document.getElementById("Number").innerHTML = "End";
@@ -439,4 +439,14 @@ var NoExposed = [];
     document.getElementById("winner").innerHTML = document.getElementById("Nametext").value;
     document.getElementById("congrat").innerHTML = "Congratulation!!!";
     document.getElementById("winnerdiv").style.visibility="hidden";
+  }
+
+//faster function
+function faster(){
+	speed = speed - 1000;
+  }
+  
+//slower function
+function slower(){
+	speed = speed + 1000;
   }
