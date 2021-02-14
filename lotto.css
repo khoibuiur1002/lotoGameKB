@@ -8,6 +8,14 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+#button:hover{ 
+        background: #DE3163;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 0px 6px 15px #0000ff61;
+        padding: 1.5rem 3rem 1.5rem 1.5rem;
+		color: #ffffff;
+}
 #button1 {
   background-color: #00008B ;
   color: white;
@@ -18,7 +26,43 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+#button1:hover{
+        background: #FFBF00;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 0px 6px 15px #0000ff61;
+        padding: 1.5rem 3rem 1.5rem 1.5rem;
+		color: #ffffff;
+}
 #button2 {
+  background-color: #00008B ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#button2:hover{
+        background: #00FF00;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 0px 6px 15px #0000ff61;
+        padding: 1.5rem 3rem 1.5rem 1.5rem;
+		color: #ffffff;
+}
+#button3 {
+  background-color: #00008B ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#button4 {
   background-color: #00008B ;
   color: white;
   padding: 15px 32px;
